@@ -1,6 +1,6 @@
 export const API_BASE =
     import.meta.env.VITE_API_BASE?.replace(/\/$/, '') ||
-    'http://localhost:8000'
+    'https://sallryxin-zi-yu-ce-ping-tai.onrender.com'
 
 export interface SalaryInput {
     years_experience: number
