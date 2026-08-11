@@ -113,6 +113,7 @@ origins = [
     "http://127.0.0.1:4173",
     "http://localhost:8000",
     "http://127.0.0.1:8000",
+    "https://sallryxin-zi-yu-ce.onrender.com",
 ]
 
 app.add_middleware(
