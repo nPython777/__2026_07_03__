@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "postgres": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@henkey/postgres-mcp-server",
+        "--connection-string",
+        "postgresql://babyplayff:doglUG0oLGnsdoyMAn5pJHVN3JHPXK6M@dpg-d9tuobmgekts739g1p8g-a.singapore-postgres.render.com/tvdi_1zkk?sslmode=require"
+      ],
+      "disabled": false,
+      "autoApprove": []
+    }
+  }
+}

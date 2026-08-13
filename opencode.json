@@ -1,0 +1,28 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "instructions": [
+    "AGENTS.md"
+  ],
+  "mcp": {
+    "render_postgres": {
+      "type": "local",
+      "command": [
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-postgres",
+        "postgresql://babyplayff:doglUG0oLGnsdoyMAn5pJHVN3JHPXK6M@dpg-d9tuobmgekts739g1p8g-a.singapore-postgres.render.com/tvdi_1zkk?sslmode=require"
+      ],
+      "enabled": true
+    },
+    "supabase_postgres": {
+      "type": "local",
+      "command": [
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-postgres",
+        "postgresql://postgres.ecudmeevedzcvfhamfjn:Q.$kXWwgA424irY@aws-0-ap-south-1.pooler.supabase.com:5432/postgres"
+      ],
+      "enabled": true
+    }
+  }
+}
